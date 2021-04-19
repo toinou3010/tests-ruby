@@ -1,0 +1,36 @@
+def who_is_bigger(a, b, c)
+table = [a, b, c]
+
+if(a==nil or b==nil or c==nil)
+return "nil detected"
+else
+v =  table.index {table.max { |a, b| a<=>b} }
+ if v==0
+return table.max { |a, b| a<=>b}
+
+
+elsif v==1
+
+else
+
+end
+end
+
+#---------------------------------------------------------------------------------
+
+def reverse_upcase_noLTA
+
+
+end
+
+#---------------------------------------------------------------------------------
+
+def array_42
+
+end
+
+#---------------------------------------------------------------------------------
+
+def magic_array
+
+end
